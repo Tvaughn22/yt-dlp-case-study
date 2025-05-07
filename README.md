@@ -22,7 +22,7 @@ A single driver script `Analyze_YT‑DLP.py` orchestrates everything and writes
 | **Cyclomatic Complexity** | *4.51 (A)* across 8 391 blocks; **1.33 %** ≥ grade D | Codebase is generally simple; a small set of risky hotspots deserve refactor  |
 | **Logical LOC (LLOC)** | ~70.368 K LLOC ( Radon raw output ) | Size continues to climb with each release |
 | **Defect Density** | Moderate overall; high closure rate | Active maintenance keeps bug backlog low  |
-| **Test Coverage** | **36 %** lines, 28 % branches (current run) | Gaps exist—esp. edge‑case extractors |
+| **Test Coverage** | **36 %** lines (current run) | Gaps exist—esp. edge‑case extractors |
 
 ## 4  Key Findings  
 
