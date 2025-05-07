@@ -45,7 +45,7 @@ A single driver script `Analyze_YT‑DLP.py` orchestrates everything and writes
 https://github.com/Tvaughn22/yt-dlp-case-study.git
 # 2. download yt-dlp zip
 # 3. edit path in Analyze_YT-DLP.py to match yt-dlp zip location
-# 4.  Install dependencies
+# 4. Install dependencies
 python -m venv .venv && source .venv/bin/activate
 pip install radon and coverage
 
