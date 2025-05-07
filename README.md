@@ -50,7 +50,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install radon and coverage
 
 # 5.  Execute the pipeline
-python Analyze_YT-DLP.py
+python Analyze_YT-DLP.py    # the version in the project is 2 weeks old changes in metrics should be expected
 
 # 6.  View outputs
 cat metrics/complexity.txt       # CC grades per file/function
