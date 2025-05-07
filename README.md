@@ -41,13 +41,17 @@ A single driver script `Analyze_YT‑DLP.py` orchestrates everything and writes
 ## 6  Re‑running the Study  
 
 ```bash
-# 1.  Install dependencies
+# 1. clone this repo
+https://github.com/Tvaughn22/yt-dlp-case-study.git
+# 2. download yt-dlp zip
+# 3. edit path in Analyze_YT-DLP.py to match yt-dlp zip location
+# 4.  Install dependencies
 python -m venv .venv && source .venv/bin/activate
 pip install radon and coverage
 
-# 2.  Execute the pipeline
+# 5.  Execute the pipeline
 python Analyze_YT-DLP.py
 
-# 3.  View outputs
+# 6.  View outputs
 cat metrics/complexity.txt       # CC grades per file/function
 coverage html && open htmlcov/index.html
